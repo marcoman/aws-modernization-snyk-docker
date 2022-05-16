@@ -63,7 +63,6 @@ This time you should see a lot more information, including recommendations for u
   From: node@6.17.1
   Image layer: Introduced by your base image (node:6)
   Fixed in: 15.14.0, 14.16.1, 12.22.1, 10.24.1
-
 Organization:      eric-smalling-snyk
 Package manager:   deb
 Target file:       Dockerfile
@@ -72,18 +71,13 @@ Docker image:      goof:6
 Platform:          linux/amd64
 Base image:        node:6
 Licenses:          enabled
-
 Tested 413 dependencies for known issues, found 876 issues.
-
 Base Image  Vulnerabilities  Severity
 node:6      876              228 high, 196 medium, 452 low
-
 Recommendations for base image upgrade:
-
 Major upgrades
 Base Image    Vulnerabilities  Severity
 node:14.16.1  526              55 high, 51 medium, 420 low
-
 Alternative image types
 Base Image                Vulnerabilities  Severity
 node:15.14-buster-slim    56               12 high, 5 medium, 39 low
